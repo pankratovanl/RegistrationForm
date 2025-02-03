@@ -47,16 +47,16 @@ public class StudentRegistrationForm {
 
         //проверка заполненных полей
 
-        $(".table-responsive").shouldHave(Condition.text("Yuriy Gagarin"),
-                (Condition.text("gagarin@comp.ru")),
-                (Condition.text("Male")),
-                (Condition.text("0700000000")),
-                (Condition.text("09 March,1934")),
-                (Condition.text("Arts")),
-                (Condition.text("Music")),
-                (Condition.text("cat.png")),
-                (Condition.text("Broadway,11")),
-                (Condition.text("Rajasthan Jaiselmer")));
+        $(".table-responsive").shouldHave(Condition.text("Yuriy Gagarin"));
+        $(".table-responsive").shouldHave(Condition.text("gagarin@comp.ru"));
+        $(".table-responsive").shouldHave(Condition.text("Male"));
+        $(".table-responsive").shouldHave(Condition.text("0700000000"));
+        $(".table-responsive").shouldHave(Condition.text("09 March,1934"));
+        $(".table-responsive").shouldHave(Condition.text("Arts"));
+        $(".table-responsive").shouldHave(Condition.text("Music"));
+        $(".table-responsive").shouldHave(Condition.text("cat.png"));
+        $(".table-responsive").shouldHave(Condition.text("Broadway,11"));
+        $(".table-responsive").shouldHave(Condition.text("Rajasthan Jaiselmer"));
         $(".modal-footer").$("#closeLargeModal").click();
 
 
